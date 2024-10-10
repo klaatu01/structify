@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/structify", "crates/structify-derive"]
+resolver = "2"
+
+[patch.crates-io]
+structify = { path = "crates/structify" }
+
