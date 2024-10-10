@@ -2,6 +2,12 @@
 name = "structify-derive"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/klaatu01/structify"
+description = "A procedural macro to transform functions into structs with state and execution dependencies"
+documentation = "https://docs.rs/klaatu01/0.1.0/structify-derive"
+readme = "../../README.md"
+license = "MIT"
+keywords = ["derive", "struct", "compose", "structify"]
 
 [lib]
 proc-macro = true
